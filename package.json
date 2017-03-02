@@ -18,8 +18,6 @@
     "lint-js": "eslint --ext=.js,.jsx server/ common/ config/ client/",
     "lint-json": "npm run lint-server && npm run lint-challenges && npm run lint-resources && npm run lint-utils",
     "pretest": "npm run create-rev && npm run lint",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
     "test-challenges": "babel-node seed/test-challenges.js | tap-spec",
     "test-js": "npm run test-js-client && npm run test-js-common && npm run test-js-server",
     "test-js-client": "tape -r babel-register \"client/**/*.test.js\" | tap-spec",
@@ -114,7 +112,6 @@
     "reselect": "^2.0.2",
     "rx": "^4.0.0",
     "sanitize-html": "^1.11.1",
-    "snyk": "^1.19.1",
     "store": "https://github.com/berkeleytrue/store.js.git#feature/noop-server",
     "uuid": "^3.0.1",
     "validator": "^6.0.0"
@@ -168,6 +165,5 @@
     "webpack-manifest-plugin": "^1.0.0",
     "webpack-stream": "^3.1.0",
     "yargs": "^6.1.1"
-  },
-  "snyk": true
+  }
 }
