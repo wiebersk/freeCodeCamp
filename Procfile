@@ -1,2 +1,1 @@
-web: npm run only-once
-web: npm start
+web: npm run only-once && npm start
