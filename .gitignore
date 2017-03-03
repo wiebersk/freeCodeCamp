@@ -10,8 +10,7 @@ lib-cov
 .floo
 .flooignore
 builtAssets/
-pm2.js
-*.env
+pm2.jss
 pids
 logs
 results
