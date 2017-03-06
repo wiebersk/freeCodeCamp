@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 // enable debug for gulp
 process.env.DEBUG = process.env.DEBUG || 'fcc:*';
 
