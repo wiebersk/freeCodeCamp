@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bower install
+gulp less
+gulp js
