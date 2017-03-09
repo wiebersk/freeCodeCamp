@@ -1,2 +1,2 @@
-resources: npm run only-once && bower install --allow-root && gulp less && gulp js && gulp pack-client
+resources: npm run only-once && bower install --allow-root && gulp build
 web: npm start
