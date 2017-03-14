@@ -5,6 +5,7 @@
   "idInjection": true,
   "emailVerificationRequired": false,
   "trackChanges": false,
+  "injectOptionsFromRemoteContext": true,
   "properties": {
     "email": {
       "type": "string",
