@@ -26,7 +26,7 @@
     "test": "npm run test-js && npm run test-challenges",
     "cover": "babel-node ./node_modules/.bin/babel-istanbul cover tape common/**/*.test.js",
     "coveralls": "npm run cover && istanbul-coveralls",
-    "postinstall": "npm run only-once && bower install --allow-root && gulp less && gulp js && gulp pack-client"
+    "postinstall": "npm run only-once && bower install --allow-root && gulp build"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
